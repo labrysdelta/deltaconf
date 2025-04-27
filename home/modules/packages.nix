@@ -1,0 +1,45 @@
+{ config, pkgs, ... }:
+{
+	home.packages = with pkgs;
+		[
+			appimage-run
+			bat
+			bitwarden
+			bitwarden-menu
+			brasero
+			btop
+			calibre
+			cava
+			chromium
+			cozy
+			curl
+			dbus
+			dust # storage mapper
+			edit
+			ffmpeg
+			firefox
+			fzf
+			gparted
+			inkscape-with-extensions
+			kapow
+			libreoffice
+			lxqt.pavucontrol-qt
+			mpv
+			nano
+			obsidian
+			p7zip
+			pinta
+			prismlauncher
+			remind
+			scli
+			signal-desktop
+			spectacle
+			speedcrunch
+			spotube
+			thunderbird
+			vesktop
+			vlc
+			wget
+			yt-dlp
+			zathura
+		];
